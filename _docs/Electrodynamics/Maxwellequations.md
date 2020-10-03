@@ -1,6 +1,6 @@
 ---
 title: Maxwell's equations 
-category: Devices
+category: Electrodynamics
 order: 1
 ---
 
