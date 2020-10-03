@@ -15,7 +15,7 @@ Accumulated discoveries and observations which can be related to independent phy
 
 $$\partial_{\mu} F^{\mu\nu} = j^{\nu}\\\partial_{[\mu}F_{\nu\lambda]}=0$$
 
-where $\mu,\nu,\lambda = 0, 1, \dots, 3$ and $\partial_{\mu}=\frac{\partial}{\partial x^{\mu}}$ for spacetime coordinates $x^{\mu}$. Also, $F_{\mu\nu}$ and $j^{\mu}$ are called the electromagnetic field and current respectively.
+where $$\mu,\nu,\lambda = 0, 1, \dots, 3$$ and $\partial_{\mu}=\frac{\partial}{\partial x^{\mu}}$ for spacetime coordinates $x^{\mu}$. Also, $F_{\mu\nu}$ and $j^{\mu}$ are called the electromagnetic field and current respectively.
 
 Due to the Poincaré lemma in a contractible neighborhood of the spacetime, the closedness of $F_{\mu\nu}$ in the second equation of Maxwell's equations implies the existence of a one-form $A_{\mu}$ such that
 
