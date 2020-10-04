@@ -4,8 +4,6 @@ category: Electrodynamics
 order: 1
 ---
 
-# Energy-momentum tensor of electrodynamics
-
 Created: Sep 30, 2020
 Created by: Seungjin Lee
 Tags: Electrodynamics

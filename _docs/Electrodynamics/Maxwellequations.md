@@ -5,8 +5,6 @@ order: 1
 ---
 
 
-# Maxwell's equations
-
 Created: Sep 30, 2020
 Created by: Seungjin Lee
 Tags: Electrodynamics
