@@ -1,7 +1,7 @@
 ---
 title: Dynamics of charged matter
 category: Electrodynamics
-order: 1
+order: 3
 ---
 
 Created: Oct 4, 2020
