@@ -1,5 +1,5 @@
 ---
-title: Energy-momentum tensor of electrodynamics 
+title: Dynamics of electromagnetic field 
 category: Electrodynamics
 order: 2
 ---
