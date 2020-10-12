@@ -1,6 +1,8 @@
 ---
 title: Dynamics of charged matter
-category: Electrodynamics/Foundations
+categories: 
+ -Electrodynamics
+ -Foundations
 order: 3
 ---
 
