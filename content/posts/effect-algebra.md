@@ -5,7 +5,7 @@ author: twistors105
 id: 20240523140658
 tags: [quantum-foundation, quantum-measurement]
 categories: 
-    - recontruction
+    - reconstruction
 bibFile: assets/bib.json
 draft: false
 ---
