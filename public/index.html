@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta name="generator" content="Hugo 0.126.2"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<style type=text/css>body{font-family:monospace;}</style>
+	<title>twistors105</title>
+	
+	
+	<link rel="stylesheet" href="/css/style.css">
+	
+	<link rel="alternate" type="application/rss+xml" href="/index.xml" title="twistors105">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    renderMathInElement(document.body, {
+      delimiters: [
+        {left: '\\[', right: '\\]', display: true},   
+        {left: '$$', right: '$$', display: true},     
+        {left: '\\(', right: '\\)', display: false},  
+        {left: '$', right: '$', display: false},  
+      ],
+      throwOnError : false
+    });
+  });
+</script>
+
+  
+</head>
+<body>
+	<header>
+	=================<br>
+	== <a href="http://localhost:1313/">twistors105</a> ==<br>
+	=================
+	<div style="float: right;">a research weblog</div><br>
+	<p>
+	<nav>
+			<a href="/"><b>start</b></a>.
+			
+			
+			<a href="/posts/"><b>posts</b></a>.
+			
+			<a href="/categories/"><b>categories</b></a>.
+			
+			<a href="/tags/"><b>tags</b></a>.
+			
+			<a href="/about/"><b>about</b></a>.
+			
+	</nav>
+	</p>
+	
+    <link rel="stylesheet" type="text/css" href="/hugo-cite.css" />
+</header>
+
+	
+	<main>
+		
+		
+			<article>
+	<h1><a href="http://localhost:1313/posts/effect-algebra/">effect algebra</a></h1>
+	<b><time>23.05.2024 00:00</time></b>
+	
+	<a href="/tags/quantum-foundation">quantum-foundation</a>
+	
+	<a href="/tags/quantum-measurement">quantum-measurement</a>
+	
+	<div>
+		<h1 id="axioms">axioms</h1>
+<p>An <em>effect algebra</em> is a set $E$ satisfying the following axioms 
+
+
+
+
+<span class="hugo-cite-intext"
+        itemprop="citation">(<span class="hugo-cite-group">
+
+          <a href="#plavalageneralprobabilistictheories2023"><span class="visually-hidden">Citation: </span><span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="givenName" content="Martin"><span itemprop="familyName">Plávala</span></span>,&#32;<span itemprop="datePublished">2023</span></a><span class="hugo-cite-citation"> 
+
+
+
+
+
+
+
+
+
+
+<span itemscope
+      itemtype="https://schema.org/Article"
+      data-type="article"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Plávala</span>,&#32;
+    <meta itemprop="givenName" content="Martin" />
+    M.</span>
+  &#32;
+    (<span itemprop="datePublished">2023</span>).
+  &#32;<span itemprop="name">General probabilistic theories: An introduction</span>.<i>
+    <span itemprop="about">Physics Reports</span>,&#32;1033</i>.&#32;<span itemprop="pagination">1–64</span>.
+  <a href="https://doi.org/10.1016/j.physrep.2023.09.001"
+     itemprop="identifier"
+     itemtype="https://schema.org/URL">https://doi.org/10.1016/j.physrep.2023.09.001</a></span>
+
+
+
+
+</span></span>;&#32;<span class="hugo-cite-group">
+
+          <a href="#gudder2002"><span class="visually-hidden">Citation: </span><span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="givenName" content="Stan"><span itemprop="familyName">Gudder</span></span>&#32;&amp;&#32;<span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="givenName" content="Richard"><span itemprop="familyName">Greechie</span></span>,&#32;<span itemprop="datePublished">2002</span></a><span class="hugo-cite-citation"> 
+
+
+
+
+
+
+
+
+
+
+<span itemscope
+      itemtype="https://schema.org/Article"
+      data-type="article"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Gudder</span>,&#32;
+    <meta itemprop="givenName" content="Stan" />
+    S.</span>&#32;&amp;&#32;<span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Greechie</span>,&#32;
+    <meta itemprop="givenName" content="Richard" />
+    R.</span>
+  &#32;
+    (<span itemprop="datePublished">2002</span>).
+  &#32;<span itemprop="name">Sequential products on effect algebras</span>.<i>
+    <span itemprop="about">Reports on Mathematical Physics</span>,&#32;49(1)</i>.&#32;<span itemprop="pagination">87–111</span>.
+  <a href="https://doi.org/10.1016/S0034-4877%2802%2980007-6"
+     itemprop="identifier"
+     itemtype="https://schema.org/URL">https://doi.org/10.1016/S0034-4877(02)80007-6</a></span>
+
+
+
+
+</span></span>;&#32;<span class="hugo-cite-group">
+
+          <a href="#vandewetering2019"><span class="visually-hidden">Citation: </span><span itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="givenName" content="John"><span itemprop="familyName">Wetering</span></span>,&#32;<span itemprop="datePublished">2019</span></a><span class="hugo-cite-citation"> 
+
+
+
+
+
+
+
+
+
+
+<span itemscope
+      itemtype="https://schema.org/Article"
+      data-type="article"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="familyName">Wetering</span>,&#32;
+    <meta itemprop="givenName" content="John" />
+    J.</span>
+  &#32;
+    (<span itemprop="datePublished">2019</span>).
+  &#32;<span itemprop="name">Sequential product spaces are Jordan algebras</span>.<i>
+    <span itemprop="about">Journal of Mathematical Physics</span>,&#32;60(6)</i>.&#32;<span itemprop="pagination">062201</span>.
+  <a href="https://doi.org/10.1063/1.5093504"
+     itemprop="identifier"
+     itemtype="https://schema.org/URL">https://doi.org/10.1063/1.5093504</a></span>
+
+
+
+
+</span></span>)</span>
+:</p>
+		
+			<a href="http://localhost:1313/posts/effect-algebra/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+		<div>
+
+1 of 1
+
+</div>
+
+	</main>
+
+	<footer>
+	<p>&copy; 2024 <a href="http://localhost:1313/"><b>twistors105</b></a>.
+	<a href="https://github.com/twistors105"><b>GitHub</b></a>.
+	</p>
+</footer>
+
+</body>
+</html>

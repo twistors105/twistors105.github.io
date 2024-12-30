@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>quantum-measurement on twistors105</title>
+    <link>http://localhost:1313/tags/quantum-measurement/</link>
+    <description>Recent content in quantum-measurement on twistors105</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/quantum-measurement/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>effect algebra</title>
+      <link>http://localhost:1313/posts/effect-algebra/</link>
+      <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/effect-algebra/</guid>
+      <description>effect algebra An effect algebra is a set $E$ satisfying the following axioms [@plavalaGeneralProbabilisticTheories2023; @gudder2002; @vandewetering2019]:&#xA;there exists a symmetric binary relation $\perp$ on $E$, there exists a binary operation $a \perp b \xmapsto{\oplus} a \oplus b$, if $a \perp b$ then $a \oplus b = b \oplus a$, if $a \perp b$ and $(a \oplus b) \perp c$ then $b \perp c$ and $a \perp (b \oplus c)$, if $a \perp b$ and $(a \oplus b) \perp c$ then $a \oplus (b \oplus c) = (a \oplus b) \oplus c$, there exists $1 \in E$ such that $\forall a \in E$ there exists a unique $a&#39; \in E$ with $a \perp a&#39;$ and $a \oplus a&#39; = 1$, and if $a \perp 1$ then $a = 0$.</description>
+    </item>
+  </channel>
+</rss>
