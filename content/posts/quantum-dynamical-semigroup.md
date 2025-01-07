@@ -13,6 +13,7 @@ draft: false
 # quantum dynamical semigroups
 
 A _quantum dynamical semigroup_ of a [Hilbert space effect algebra]({{< ref "effect-algebra.md" >}} "effect algebra") $(\mathcal{E}(H),0,I,+)$ is a set $\{\mathcal{B}(H) \xrightarrow{\Lambda_{t}} \mathcal{B}(H):t \le 0\}$ satisfying the following axioms {{<cite "alicki2007;breuerTheoryOpenQuantum2002" "7;117" >}}:
+<!--more-->
 1. $\mathcal{B}(H)$ is the space of bounded linear operators of $H$,
 2. $(\forall t \ge 0)$ $\Lambda_{t}$ is a linear function,
 3. $(\forall t \ge 0)$ $\Lambda_{t}$ is completely positive,
